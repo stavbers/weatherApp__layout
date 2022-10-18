@@ -67,7 +67,8 @@ a {
 }
 
 .header__wrp {
-  background-color: #fff;
+  background-color: #f4f4f4;
+  margin-top: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,7 +84,8 @@ a {
   height: 45px;
   border-radius: 50%;
   border: 1px solid #fff;
-  padding: 10px;
+  padding: 12px 10px 10px 12px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .header__search img {
   width: 20px;
@@ -104,6 +106,7 @@ a {
   border-radius: 50%;
   border: 1px solid #fff;
   padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .header__menu img {
   width: 25px;
