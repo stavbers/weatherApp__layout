@@ -1,0 +1,30 @@
+
+.userHello {
+
+		&__wrp {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+		}
+
+		&__img {
+      width: 48px;
+      height: 48px;
+      margin-right: 10px;
+      & img {
+        width: 100%;
+      }
+		}
+
+		&__info {
+      color: $textColor;
+		}
+
+		&__time {
+      font-size: 16px;
+		}
+
+		&__name {
+      font-size: 24px;
+		}
+}

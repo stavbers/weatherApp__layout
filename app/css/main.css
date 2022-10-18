@@ -112,4 +112,33 @@ a {
   width: 25px;
   height: 25px;
 }
+
+.userHello__wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.userHello__img {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.userHello__img img {
+  width: 100%;
+}
+.userHello__info {
+  color: #31507F;
+}
+.userHello__time {
+  font-size: 16px;
+}
+.userHello__name {
+  font-size: 24px;
+}
 /*# sourceMappingURL=main.css.map */
