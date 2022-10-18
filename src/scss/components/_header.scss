@@ -1,0 +1,44 @@
+.header {
+
+
+  &__wrp {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__search {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    & img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__title {
+    @include mp0;
+    @include grotesk500;
+    color: $textColor;
+    font-size: 32px;
+    line-height: 52px;
+
+  }
+
+  &__menu {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    & img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
