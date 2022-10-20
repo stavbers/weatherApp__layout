@@ -114,6 +114,7 @@ a {
 }
 
 .userHello__wrp {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,5 +141,82 @@ a {
 }
 .userHello__name {
   font-size: 24px;
+}
+
+.weatherNow {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #31507F;
+}
+.weatherNow-wrp {
+  background-color: #fff;
+  padding: 20px;
+}
+.weatherNow__date {
+  font-size: 12px;
+}
+.weatherNow__locat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.weatherNow__icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 6px;
+}
+.weatherNow__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.weatherNow__update {
+  font-size: 12px;
+}
+.weatherNow__descr {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.weatherNow-temp {
+  margin-top: 10px;
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.weatherNow-temp__max {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+.weatherNow-temp__min {
+  font-size: 22px;
+  margin-bottom: -8px;
+  margin-right: 5px;
+}
+.weatherNow-temp__design {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=main.css.map */
