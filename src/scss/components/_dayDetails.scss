@@ -1,0 +1,49 @@
+.dayDetails {
+
+  @include grotesk400;
+  color: $textColor;
+
+
+
+  &__top {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba($color: #fff, $alpha: .5);
+  }
+
+  &__title {
+    @include mp0;
+    font-size: 28px;
+  }
+
+  &__icon {
+  }
+
+  &__bootom {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba($color: #fff, $alpha: .5);
+    padding: 10px 20px;
+  }
+
+  &__list {
+    @include mp0;
+    @include liststyle;
+  }
+
+  &__item {
+    font-size: 20px;
+  }
+
+  &__num {
+  }
+
+  &__name {
+  }
+}
+

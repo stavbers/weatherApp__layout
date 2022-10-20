@@ -144,6 +144,7 @@ a {
 }
 
 .weatherNow {
+  margin-top: 10px;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   text-align: center;
@@ -231,5 +232,52 @@ a {
   opacity: 0.45;
   -webkit-filter: blur(12px);
   filter: blur(12px);
+}
+
+.dayDetails {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #31507F;
+}
+.dayDetails__top {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.dayDetails__title {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+.dayDetails__bootom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+}
+.dayDetails__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dayDetails__item {
+  font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */
