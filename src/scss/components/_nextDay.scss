@@ -1,0 +1,68 @@
+.nextDay {
+margin-bottom: 20px;
+  @include grotesk400;
+  color: $textColor;
+
+  &__top {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba($color: #fff, $alpha: .5);
+  }
+
+  &__title {
+    @include mp0;
+  }
+
+  &__icon {}
+
+  &__bottom {
+    // padding: 10px 20px;
+  }
+
+  &__list {
+    @include mp0;
+    @include liststyle;
+    display: flex;
+
+  }
+
+  &__item {
+    background-color: rgba($color: #fff, $alpha: .5);
+    align-items: center;
+    margin-right: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  &__subTitle {
+    @include mp0;
+    font-size: 22px;
+  }
+
+  &__date {
+    font-size: 12px;
+  }
+
+  &__img {}
+
+  &__num {
+    @include grotesk600;
+    font-size: 22px;
+    &_sm {
+      @include grotesk400;
+      font-size: 15px;
+    }
+  }
+
+  &__symbol {
+    @include grotesk600;
+  }
+}
