@@ -29,10 +29,14 @@
     @include mp0;
     @include grotesk600;
     margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 24px;
   }
 
-  &__img {}
+  &__img {
+    position: relative;
+
+  }
 
   &__update {
     font-size: 12px;
@@ -69,4 +73,12 @@
     font-size: 22px;
     margin-bottom: 15px;
   }
+}
+.img-extra-op {
+  position: absolute;
+  top: -28px;
+  left: 100px;
+  opacity: .45;
+  filter: blur(12px);
+
 }
